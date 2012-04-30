@@ -15,6 +15,15 @@ describe('XXXXX クラスは', function() {
     //テストのテンプレート
     /*
     it('XXXX は XXXXX で XXXXX', function() {
+        //非同期処理
+        runs(function() {
+            //add code.
+        });
+        waits(1000);
+        runs(function() {
+            //add code.
+        });
+
         //aがbと同じである
         expect(a).toEqual(b);
         //aがbと同じでない
